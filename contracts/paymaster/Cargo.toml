@@ -1,0 +1,23 @@
+[package]
+name = "paymaster"
+version = "0.0.0"
+authors = [ "Dharitri <contact@dharitri.com>" ]
+edition = "2018"
+publish = false
+readme = "README.md"
+
+
+[lib]
+path = "src/paymaster.rs"
+
+[dev-dependencies]
+num-bigint = "0.4.2"
+
+[dependencies.dharitri-sc]
+version = "0.0.1"
+
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.0.1"
+
+[dev-dependencies.adder]
+path = "../adder"
